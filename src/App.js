@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
-import SearchName from './components/SearchName/SearchName'
-import SearchPlanet from './components/SearchPlanet/SearchPlanet'
-import Results from './components/Results/Results'
+import SearchName from './components/SearchName'
+import SearchPlanet from './components/SearchPlanet'
+import Results from './components/Results'
 import './App.css';
-import PlanetResults from './components/PlanetResults/PlanetResults';
+import PlanetResults from './components/PlanetResults';
 
 class App extends Component {
   state = {
