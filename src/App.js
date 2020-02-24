@@ -7,8 +7,10 @@ import PlanetResults from './components/PlanetResults';
 
 class App extends Component {
   state = {
+    
     characters: [],
     planets: [],
+
   }
 
   handleNameRequest = name => {
